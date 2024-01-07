@@ -1,0 +1,30 @@
+*
+.banner {
+  background-image: url("../resources/Banner\ Image.png");
+
+    margin: 50px 140px 110px;
+    padding:130px  250px ;  
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    border-radius: 16px;
+    
+
+}
+.banner-title {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 32px;
+
+  font-weight: 400;
+
+}
+.banner-heading{
+    color: #FFF;
+text-align: center;
+font-family: Merriweather;
+font-size: 72px;
+
+font-weight: 900;
+
+}
