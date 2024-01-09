@@ -11,7 +11,8 @@
       rgba(7, 2, 17, 0) 100%
     ),
     url("../resources/Banner\ Image.png");
-
+   
+    width: 1320px;
   height: 600px;
   margin: 0px 120px;
   background-repeat: no-repeat;
@@ -176,7 +177,7 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-    padding-bottom: 10px;
+  padding-bottom: 10px;
   margin-bottom: 5px;
 }
 .header-offer {
@@ -187,25 +188,26 @@
   font-weight: 900;
   line-height: normal;
   text-transform: capitalize;
-  margin-top: 5px;margin-bottom: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
-.header-offer-details{
-  color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 32px; /* 160% */
-width: 393px;
-margin-bottom: 104px;
+.header-offer-details {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+  width: 393px;
+  margin-bottom: 104px;
 }
-.happy-image{
+.happy-image {
   padding: 35px;
   border-radius: 463px;
-  border: 15px solid #F00;
+  border: 15px solid #f00;
 }
-.header-year-now{
-  color: #F00;
+.header-year-now {
+  color: #f00;
   font-family: Inter;
   font-size: 48px;
   font-style: normal;
@@ -213,8 +215,8 @@ margin-bottom: 104px;
   line-height: normal;
   margin-bottom: 16px;
 }
-.header-year-quote{
-  color: rgba(7, 2, 17, 0.60);
+.header-year-quote {
+  color: rgba(7, 2, 17, 0.6);
   font-family: Inter;
   font-size: 20px;
   font-style: normal;
@@ -222,60 +224,103 @@ margin-bottom: 104px;
   line-height: 32px; /* 160% */
   margin-top: 16px;
   margin-bottom: 16px;
-  
 }
-.sale-details{
-  
+.sale-details {
   margin: 100px 120px;
   width: auto;
-
 }
-.sale-intro{
+.sale-intro {
   color: #070211;
   text-align: center;
-font-family: Inter;
-font-size: 24px;
-font-weight: 500;
-height: 28px;
-margin-bottom: 16px;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  height: 28px;
+  margin-bottom: 16px;
 }
-.sale-deal{
+.sale-deal {
   color: #070211;
   text-align: center;
   font-family: Merriweather;
   font-size: 72px;
   font-weight: 900;
   height: 90px;
-  margin-top:16px;
+  margin-top: 16px;
   margin-bottom: 28px;
 }
-.holiday{
-  color: #F00;
-text-align: center;
-font-family: Merriweather;
-font-size: 72px;
-font-weight: 900;
-}
-.sale-deal-details{
-  color: rgba(7, 2, 17, 0.60);
+.holiday {
+  color: #f00;
   text-align: center;
-    font-family: Inter;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+}
+.sale-deal-details {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
   font-size: 20px;
   font-weight: 500;
   line-height: 32px; /* 160% */
   padding: 0 120px;
 }
 
-.image-with-sale{
-  background-image: url('../resources/Group\ 44.png'), url('../resources/Rectangle\ 1.png') , url('../resources/Rectangle\ 2.png');
-  background-position: 69% 39%,right 23.4%, bottom ;
+.image-with-sale {
+  background-image: url("../resources/Group\ 44.png"),
+    url("../resources/Rectangle\ 1.png"), url("../resources/Rectangle\ 2.png");
+  background-position: 69% 39%, right 23.4%, bottom;
   background-repeat: no-repeat;
   padding-top: 64px;
 
   border-radius: 16px 0px 16px 16px;
-
 }
 /* portfolio Styles */
-.portfolio{
+.portfolio {
   margin: 100px 120px;
+}
+.portfolio-text {
+  color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-bottom: 16px;
+}
+.portfolio-title {
+  color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+margin-top: 16px;
+margin-bottom: 22px;
+}
+.portfolio-details{
+  color: rgba(7, 2, 17, 0.60);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+  margin-top: 22px; 
+  padding-right: 444px;
+}
+.portfolio-all-image > div > img{
+width:406px;
+height: 430px;
+flex-shrink: 0;
+padding: 0px 24px 24px 0px ; 
+
+border-radius: 8px;
+}
+.picture-set-1{
+  display: flex;
+  
+}
+.picture-set-2{
+  display: flex;
+
 }
