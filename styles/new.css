@@ -5,25 +5,35 @@
   font-family: "Inter", sans-serif;
 }
 .banner {
-  background-image: url("../resources/Banner\ Image.png");
+  background-image: linear-gradient(
+      to bottom,
+      #070211 0%,
+      rgba(7, 2, 17, 0) 100%
+    ),
+    url("../resources/Banner\ Image.png");
 
-  margin:15px 140px 110px;
-  padding: 130px 250px;
+  height: 600px;
+  margin: 0px 120px;
   background-repeat: no-repeat;
-  background-position: center;
+  justify-content: center;
   border-radius: 16px;
- }
+}
+.banner-content {
+  padding: 0px 320px 0px 320px;
+}
 .banner-title {
   color: #fff;
   font-size: 32px;
   text-align: center;
   font-weight: 400;
+  padding-top: 165px;
 }
 .banner-heading {
   color: #fff;
   text-align: center;
   font-size: 72px;
   font-weight: 900;
+  margin-top: 0px;
 }
 /* Section Styles */
 .section-text {
@@ -40,59 +50,136 @@
   font-size: 24px;
   font-weight: 500;
 }
-.section-category{
-color: #070211;
-text-align: center;
-font-size: 48px;
-font-weight: 700;
+.section-category {
+  color: #070211;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
 }
-.section-img{
-    display: block;
-    margin: auto;
-    margin-bottom: 100px;
+.section-img {
+  display: block;
+  margin: auto;
+  margin-bottom: 100px;
 }
-.mid-section{
-background-image: url('../resources/Vectorrr.png');
- background-repeat: no-repeat;
- display: flex; 
- 
- margin: 0px 120px;
-padding: 80px 345px 120px 117px;
-border-radius: 16px;
+.mid-section {
+  background-image: linear-gradient(
+      to right,
+      #070211 0%,
+      rgba(7, 2, 17, 0) 100%
+    ),
+    url("../resources/Group\ 70.png"), url("../resources/Vectorrr.png");
+  background-repeat: no-repeat;
+  background-position: 86.5%;
+  /* display: flex;  */
+  width: auto;
+  max-height: 600px;
+  margin: 0px 120px;
 
+  border-radius: 16px;
+}
+.party {
+  padding: 80px 345px 120px 117px;
+}
+.section-title {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 58px;
+  font-weight: 900;
+  line-height: 88px;
+  margin-right: 252px;
+  margin-bottom: 15px;
+}
+/* .section-bg-img{
+  margin-top: 68px;
+  margin-right: 115px;
+} */
+.section-paragraph {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  margin-right: 180px;
+  padding-bottom: 26px;
+}
+.btn-lite {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  background-color: transparent;
+  box-shadow: none;
+  padding-left: 35px;
+}
+.event-section {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  width: auto;
+  height: 482px;
+  margin: 100px 120px;
+  padding-top: 100px;
+  border-radius: 16px;
+}
+.event {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  text-align: center;
+  font-weight: 600;
 
-
+  text-transform: capitalize;
 }
 
-.section-title{
-color: #FFF;
-font-family: Merriweather;
-font-size:58px;
-font-style: normal;
-font-weight: 900;
-line-height: 88px;
-margin-bottom: 15px; 
+.event-des {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
 
+  text-transform: capitalize;
 }
-.section-paragraph{
-color: rgba(255, 255, 255, 0.80);
-font-family: Inter;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px; /* 166.667% */
-padding-bottom: 45px;
+.btn-color {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: #f00;
+  border: 0px;
+  border-radius: 8px;
+  padding: 16px 32px;
 }
-.btn-lite{
-    color: #FFF;
-text-align: center;
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-text-transform: uppercase;
-border: none;
-background-color: transparent;
-box-shadow: none;
+.join-btn {
+  text-align: center;
+  margin-top: 48px;
+}
+/* Main Styles  */
+.sale-start {
+  margin: 100px 120px;
+}
+.header-deals {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.header-offer {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
 }
