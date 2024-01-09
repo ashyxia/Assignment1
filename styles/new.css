@@ -164,7 +164,10 @@
 }
 /* Main Styles  */
 .sale-start {
-  margin: 100px 120px;
+  margin: 105px 120px;
+  display: flex;
+  align-items: center;
+  gap: 70px;
 }
 .header-deals {
   color: #f00;
@@ -173,6 +176,8 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+    padding-bottom: 10px;
+  margin-bottom: 5px;
 }
 .header-offer {
   color: #070211;
@@ -182,4 +187,95 @@
   font-weight: 900;
   line-height: normal;
   text-transform: capitalize;
+  margin-top: 5px;margin-bottom: 5px;
+}
+.header-offer-details{
+  color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+width: 393px;
+margin-bottom: 104px;
+}
+.happy-image{
+  padding: 35px;
+  border-radius: 463px;
+  border: 15px solid #F00;
+}
+.header-year-now{
+  color: #F00;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+.header-year-quote{
+  color: rgba(7, 2, 17, 0.60);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+  margin-top: 16px;
+  margin-bottom: 16px;
+  
+}
+.sale-details{
+  
+  margin: 100px 120px;
+  width: auto;
+
+}
+.sale-intro{
+  color: #070211;
+  text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+height: 28px;
+margin-bottom: 16px;
+}
+.sale-deal{
+  color: #070211;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  height: 90px;
+  margin-top:16px;
+  margin-bottom: 28px;
+}
+.holiday{
+  color: #F00;
+text-align: center;
+font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+}
+.sale-deal-details{
+  color: rgba(7, 2, 17, 0.60);
+  text-align: center;
+    font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px; /* 160% */
+  padding: 0 120px;
+}
+
+.image-with-sale{
+  background-image: url('../resources/Group\ 44.png'), url('../resources/Rectangle\ 1.png') , url('../resources/Rectangle\ 2.png');
+  background-position: 69% 39%,right 23.4%, bottom ;
+  background-repeat: no-repeat;
+  padding-top: 64px;
+
+  border-radius: 16px 0px 16px 16px;
+
+}
+/* portfolio Styles */
+.portfolio{
+  margin: 100px 120px;
 }
